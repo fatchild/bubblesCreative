@@ -19,8 +19,6 @@ body {
 
 .bubble {
     position: absolute;
-    /* top: 100px;
-    left: 100px; */
     background-color: coral;
     margin-left: -5px;
     margin-top: -5px;
@@ -28,7 +26,6 @@ body {
     width: 10px;
     border-radius: 10px;
     transition-property: height width border-radius margin-left margin-top border-radius;
-    /* transition-timing-function: ; */
     transition-duration: 60s;
     transform: skew(0deg);
 }
